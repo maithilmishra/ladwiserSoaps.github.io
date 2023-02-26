@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LadwiserSoaps</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav1">
+      20% OFF ON ORGANIC SOAPS|FREE SHIPPING OVER $40
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <a href="#shop">TRY OUR AROMATIC SOAPS</a><br><br>
+    </nav>
+</header>
+<section class="section" id="home">
+  <nav class="nav2">
+    <img src="ladwiser soaps-1.png" alt="logo of company" class="img1">
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <a href="#aboutus" class="btn-2">About Us</a>&nbsp;&nbsp;&nbsp;
+    <a href="#categories" class="btn-2">Categories</a>&nbsp;&nbsp;&nbsp;
+    <a href="#shop" class="btn-2">Shop</a>&nbsp;&nbsp;&nbsp;
+    <a href="#testimonials" class="btn-2">Testimonials</a>&nbsp;&nbsp;&nbsp;
+    <a href="#footer" class="btn-2">Contact Us</a>&nbsp;&nbsp;&nbsp;
+  </nav>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h3 class="h3">Cosmetics You Deserve...</h3>
+    <h1 class="h1">HANDCRAFTED<br>
+      Organic <font style="color: rgb(216, 137, 137);">Soap</font>
+    </h1>
+    <h3 class="a">
+      <font
+        style="font-style: oblique; font-family: 'Times New Roman', Times, serif; color: rgb(83, 52, 80); font-size: larger;">
+        Making your body and thoughts clean and clear.</font>
+    </h3>
+    <img src="soap1.jpg" alt="Image of a Soap" class="img2">
+    <button class="shopnow" onclick="window.location.href = '#shop';">Shop Now <b>&#8594</b></button>
+    <button class="AboutUs" onclick="window.location.href = '#aboutus';">About Us</button>
+  </section>
+
+  <section class="section2" id="aboutus">
+    <img src="soap2.png" alt="Image of a Soap" class="img3">
+    <h3 class="h3-1">100% natural</h3>
+    <h1 class="h1-1">Great for Your Skin.</h1>
+    <p class="p" style='font-size:80px;'>&#10048;</p>
+    <p class="p-1">Our organic soaps gently take care of your skin.</p>
+    <ul class="ul">
+        <li>Only natural ingredients are used in our soaps.</li>
+        <li>We combine cold-pressed olive oil, coconut oil, and cocoa butter.</li>
+        <li>Each bar of soap contains antioxidants and vitamin E.</li>
+      </ul>
+      <p class="p-2">Our soap cleanses your skin, deeply nourishes, and moisturizes it.</p>
+      <button class="learnmore" onclick="window.location.href = '#shop';"><b>Learn More</b> <b>&#8594</b></button>
+  </section>
+
+  <section class="section3" style="height: 106vh;" id="categories">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="1.png" style="width:200px; height: 200px;" class="img4">
+            <!-- <div class="text">Sweet Scents</div> -->
+        </div>
+        <div class="mySlides fade">
+            <img src="2.png" style="width:200px; height: 200px;" class="img4">
+            <!-- <div class="text">Herbal Soap</div> -->
+          </div>
+
+        <div class="mySlides fade">
+            <img src="3.png" style="width:200px; height: 200px;" class="img4">
+             <!-- <div class="text">Skin Problem</div> -->
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br>
+
+    <div class="golbutton">
+        <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+  
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+  
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+  
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+       <h7 class="h7-1">Soap</h7>
+       <h2 class="h2-1">Categories</h2>
+       <p class="p-3" style='font-size:80px;'>&#10048;</p>
+       <h4 class="h4-1">Here you will find different types of homemade soaps.</h4>
+       <br>
+       <h4 class="h4-2 ">Select your skin type, the scent, or the effect you want to achieve to find your perfect fit.</h4>
+       <div class="box1">
+        <h1 class="h1-2">10%</h1>
+        <hr width="90px" size="5px" style="background-color:rgb(216, 137, 137)">
+        <h4 class="h4-3">Dicount on your first order</h4>
+      </div>
+      <div class="box2">
+        <h2 class="h2-2">Your Skin Will Thank You</h2><br>
+        <hr width="120px" size="4px" style="background-color:burlywood;position: relative;right: 325px;">
+        <h4 class="h4-4">Start your skincare today.</h4>
+        <a href="" class="btn-3">Shop Soap<b>&#8594</b></a>
+      </div>
+    </section>
+    <section class="section4" id="shop">
+        <table class="table">
+          <tr>
+            <td><img src="a.png" height="200" width="200"><br>Lemon Start<br>$3,00<br><br><button class="btn-4">Add to
+                Cart<b>&#8594</b></button></td>
+            <td><img src="b.png" height="200" width="200"><br>Fresh Touch<br>$2,00<br><br><button class="btn-4">Add to
+                Cart<b>&#8594</b></button></td>
+            <td><img src="c.png" height="200" width="200"><br>Tender Lavender<br>$4,00<br><br><button class="btn-4">Add to
+                Cart<b>&#8594</b></button></td>
+            <td><img src="d.png" height="200" width="200"><br>Lemon & Vanilla<br>$3,00<br><br><button class="btn-4">Add to
+                Cart<b>&#8594</b></button></td>
+          </tr>
+          <tr>
+            <td><img src="e.png" height="200" width="200"><br>Matcha Tea<br>$3,00<br><br><button class="btn-4">Add to
+                Cart<b>&#8594</b></button></td>
+            <td><img src="f.png" height="200" width="200"><br>Cinnamon Delight<br>$4,00<br><br><button class="btn-4">Add to
+                Cart<b>&#8594</b></button></td>
+            <td><img src="g.png" height="200" width="200"><br>Caramel Dream<br>$4,00<br><br><button class="btn-4">Add to
+                Cart<b>&#8594</b></button></td>
+            <td><img src="h.png" height="200" width="200"><br>Orange Boost<br>$3,00<br><br><button class="btn-4">Add to
+                Cart<b>&#8594</b></button></td>
+          </tr>
+        </table>
+        <div class="box3">
+            <h7 class="h7-2"><b>Soap Stories</b></h7>
+            <h2 class="h2-3">Your Skin Needs Proper Care.</h2>
+            <hr width="120px" size="3px" style="background-color:rgb(5, 0, 0)">
+            <p class="p-4">Our homemade soap consists of different natural ingredients. If you are not sure which soap to buy,
+              you can consult with us.</p>
+            <button class="btn-5" onclick="window.location.href = '#footer';">Talk to our Soap Expert<b>&#8594</b></button>
+          </div>
+        </section>
+        <section class="section5" id="testimonials">
+            <div class="box4">
+              <h7 class="h7-4"><b>Testimonials</b></h7>
+              <h2 class="h2-4">Our Customers' Reviews.</h2>
+              <p class="p-6" style='font-size:80px;'>&#10048;</p>
+              <p class="p-5">We're happy that more and more customers prefer handmade organic soaps.</p>
+            </div>
+            <div class="box5">
+                <h3>Coffee Kumar</h3>
+                <p>“Since I first tried natural soap bars, I have stopped using store-bought soaps! This soap smells very nice and
+                  the skin is like after luxury SPA treatments. I have already tried almost all types of soaps by Purity and
+                  became their fan! ”</p>
+                <h5>March 08,2022</h5>
+              </div>
+              <div class="box6">
+                <h3>Papa ki Pari</h3>
+                <p>“Ladwiser has a huge variety of homemade soaps, both solid and liquid, from sweet to fresh fragrances. When I
+                  get
+                  tired of the smell of one soap, I just buy the next one. They only use natural ingredients and I really
+                  appreciate that!”</p>
+                <h5>April 13,2022</h5>
+              </div>
+              <div class="box7">
+                <h3>Armaan Mishra</h3>
+                <p>“After I have discovered Purity, my skin is always soft, tender, and hydrated, and even washing my face in the
+                  morning turns into a pleasant ritual. In addition, this soap looks great and can be bought as a gift to your
+                  friends or relatives.”</p>
+                <h5>April 13,2022</h5>
+              </div>
+            </section>
+            <footer class="footer" id="footer">
+                <div class="box8">
+                  <img src="ladwiser soaps-1.png" height="200" width="200" alt="logo of company"
+                    style="position: relative; top: -300px;left: 15%; filter: drop-shadow(10px 10px 10px black);"><br>
+                  <p
+                    style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: left;position: relative; top: -270px; font-style: normal;font-size: large;">
+                    We produce handmade soap from cold-pressed olive oil, coconut oil, and cocoa butter. Each of our soap bars is
+                    an extensive source of vitamin E and antioxidants. Turn your routine washing-up into a pleasant ritual.</p><br>
+                  <img src="facebook.png" class="img5" height="50px" width="50px" alt="facebook logo">&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="instagram.png" class="img5" height="50px" width="70px" alt="instagram logo">&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="twitter.png" class="img5" height="50px" width="50px" alt="twitter logo">
+                </div>
+                <div class="box9">
+                    <h3>Contacts.</h3>
+                    <ol>
+                      <li><b>Email:</b></li>
+                      <li>ladwiser@gmail.com</li>
+                      <br><br>
+                      <li><b>Phone:</b></li>
+                      <li>0522-234-987</li>
+                      <br><br>
+                      <li><b>Address:</b></li>
+                      <li>room no. 100 mundupalam junction pala 686575</li>
+                      <br><br>
+                    </ol>
+                  </div>
+                  <div class="box10">
+                    <h2 class="h2-5">Subscribe to receive our<br> special offers.</h2>
+                    <input id="email" type="email" placeholder="&nbsp;&nbsp;&nbsp;Email..."><br><br>
+                    <button class="btn-6">Subscribe<b>&#8594</b></button>
+                  </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                  <hr size="5" color="black" width="89%" >
+                  <h4 class="copyright">&copy;Created By: Maithil Mishra</h4>
+                  <h4 class="rights">All Rights Reserved</h4>
+                </footer>
+               
+
+      
